@@ -4,7 +4,7 @@
 
 #define W25Q_SPI_DEVICE_NAME     "spi20"
 #define CS_PORT                   GPIOB
-#define CS_GPIO                   12
+#define CS_GPIO                   GPIO_PIN_12
 
 static rt_uint32_t spi_w25q_sample(int argc, char *argv[])
 {
